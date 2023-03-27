@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Impact;
+  font-family: Arial;
   padding: 20px;
   background: #000000;
 }
@@ -12,6 +12,7 @@ body {
 .header {
   padding: 30px;
   font-size: 40px;
+  font-family: Impact;
   text-align: center;
   background: white;
 }
@@ -71,3 +72,4 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     color: gray;
 } 
+
