@@ -2,15 +2,23 @@
   box-sizing: border-box;
 }
 
+:root{
+
+  --darktheme: black;
+  --WhiteTheme: gray;
+  --test: linear-gradient(to right, rgb(2, 2, 2), rgb(44, 44, 44), rgb(91, 92, 91),rgb(44,44,44),rgb(2,2,2));
+  
+}
+
 body {
   font-family: Arial;
-  padding: 20px;
-  background: #000000;
+  padding: 10px;
+  background: var(--test);
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
+  padding: 20px;
   font-size: 40px;
   font-family: Impact;
   text-align: center;
@@ -42,6 +50,7 @@ body {
 .card {
   background-color: white;
   padding: 20px;
+  padding-bottom: 10px;
   margin-top: 20px;
 }
 
@@ -55,14 +64,65 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
-  text-align: center;
+  text-align: left;
+  color: black;
   background: #ddd;
   margin-top: 20px;
 }
+
 h5{
     font-family: 'Times New Roman';
     color: gray;
+    border-bottom: solid gray;
 } 
+
+
+
+img{
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  border-radius: 25px;
+
+
+}
+
+.theme-toggle{
+
+  height: 30px;
+  width: 50px;
+  border-radius: 15px;
+  border: 3px solid black;
+  margin-left: auto;
+
+
+}
+
+.button {
+  font: bold 25px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-radius: 25px;
+}
+.button2 {
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 6px 4px 6px;
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  border-left: 3px solid #333333;
+  border-radius: 25px;
+}
+
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
