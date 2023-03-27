@@ -1,0 +1,11 @@
+      
+      
+TEMPLATE FOR BLOG POST  
+      <div class="card">
+        <h2>{title}</h2>
+        <h5>{DATE}--By:{Author}</h5>
+        <h4>{TITLE}</h4>
+        <p>{DISCRIPTION}</p><br>
+
+        <a href="{LINK}" class="button2">Read More</a>
+      </div>

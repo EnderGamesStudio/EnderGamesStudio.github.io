@@ -20,13 +20,10 @@
   <div class="row">
     <div class="leftcolumn">
       <div class="card">
-        <h1>Who am I???</h1>
-        <h5>March 26 2023 By: EnderGames</h5>
-        <h2>My Name is EnderGames</h2>
-        <p3> I am a 22 Year old college student studying Game Design at Full Sail University. I love working with tech
-            off all kind and one day wish to make EnderGames Studio a thriving place for gamers and techies alike.
-            If you wanna know even more about me be sure to check out my socials and sub to me on youtube!!
-        </p3>
+        <h1>{{TITLE}}</h1>
+        <h5>{DATE} By:{AUTHOR}</h5>
+        <h2>{Header}</h2>
+        <p3> {CONTENT} </p3>
 
 
       </div>
@@ -39,9 +36,9 @@
 
       <div class="card">
         <h3>Follow Me</h3>
-        <a href="https://www.youtube.com/@endergames98">Youtube</a><br>
-        <a href="https://twitter.com/EnderGamesShow">Twitter</a><br>
-        <a href="https://github.com/EnderGamesStudio">GitHub</a>
+        <a href="{{SOCIALS}}">Youtube</a><br>
+        <a href="{{SOCIALS}}">Twitter</a><br>
+        <a href="{{SOCIALS}}">GitHub</a>
       </div>
 
       
